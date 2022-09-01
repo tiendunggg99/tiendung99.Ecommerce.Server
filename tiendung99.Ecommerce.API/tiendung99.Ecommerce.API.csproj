@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -9,8 +9,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+	  <PackageReference Include="AutoMapper" Version="11.0.1" />
+	  <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.8">
+		  <PrivateAssets>all</PrivateAssets>
+		  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
     <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.17.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tiendung99.Ecommerce.BLL\tiendung99.Ecommerce.BLL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="tiendung99.Core.Entity">
+      <HintPath>..\..\tiendung99.Core\tiendung99.Core.Entity\bin\Debug\net6.0\tiendung99.Core.Entity.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32825.248
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiendung99.Ecommerce.API", "tiendung99.Ecommerce.API\tiendung99.Ecommerce.API.csproj", "{C36D50EC-6AC0-4921-90EB-9C009B6AB960}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiendung99.Ecommerce.BLL", "tiendung99.Ecommerce.BLL\tiendung99.Ecommerce.BLL.csproj", "{6F9FAD57-505E-4F92-895D-B9A40E4A4AF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tiendung99.Ecommerce.DAL", "tiendung99.Ecommerce.DAL\tiendung99.Ecommerce.DAL.csproj", "{A90983C4-C74D-43AA-9D41-334BC2D71C07}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C36D50EC-6AC0-4921-90EB-9C009B6AB960}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C36D50EC-6AC0-4921-90EB-9C009B6AB960}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C36D50EC-6AC0-4921-90EB-9C009B6AB960}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9FAD57-505E-4F92-895D-B9A40E4A4AF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9FAD57-505E-4F92-895D-B9A40E4A4AF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9FAD57-505E-4F92-895D-B9A40E4A4AF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9FAD57-505E-4F92-895D-B9A40E4A4AF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A90983C4-C74D-43AA-9D41-334BC2D71C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A90983C4-C74D-43AA-9D41-334BC2D71C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A90983C4-C74D-43AA-9D41-334BC2D71C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A90983C4-C74D-43AA-9D41-334BC2D71C07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="AutoMapper" Version="11.0.1" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tiendung99.Ecommerce.DAL\tiendung99.Ecommerce.DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="tiendung99.Core.Entity">
+      <HintPath>..\..\tiendung99.Core\tiendung99.Core.Entity\bin\Debug\net6.0\tiendung99.Core.Entity.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
